@@ -26,6 +26,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<distributionManagement>
+  <snapshotRepository>
+    <id>CI-CD-management</id>
+    <name>CI-CD-management</name>
+    <url>http://localhost:8081/repository/CI-CD-management/</url>
+  </snapshotRepository>
+</distributionManagement>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
